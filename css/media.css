@@ -1,0 +1,921 @@
+
+
+
+/*============================large device part start==============================*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+/*=====================navbar part start==================*/
+
+.search-btn {
+    top: 30%;
+}
+.search-overlay {
+    top: -76%;
+    height: 1000px;
+}
+
+
+/*====================banner part start=====================*/
+.banner-text h2 {
+    font-size: 45px;
+}
+.bnrs-hover img {
+    width: 600px;
+}
+
+
+/*========================about part start====================*/
+
+.about-left p {
+    padding-bottom: 15px;
+}
+.about-item i {
+    font-size: 40px;
+}
+.about-right img{
+    height:476px;
+}
+.about-right {
+    padding-top: 52px;
+}
+/*========================about part start====================*/
+.counter-text h3 {
+    margin-top: 19px;
+}
+.counter-num h2 {
+    font-size: 36px;
+}
+
+/*========================sevice part start====================*/
+
+
+.services-text {
+    padding-left: 16px !important;
+}
+
+.service-btn {
+    padding-top: 13px;
+}
+.serv-item-top {
+    padding-top: 28px;
+}
+.service-img img {
+    padding-top: 43px;
+}
+
+/*========================project part start====================*/
+
+.pro-text h4 {
+    font-size: 16px;
+
+}
+
+
+}
+
+
+ /*===========================medium device part start===============================*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+ 
+
+ /*===================header part start=========================*/
+ #header::before {
+    width: 40%;
+}
+
+/*===========================navbar part start===================*/
+
+.navbar-brand img {
+    width: 130px;
+    height: 55px;
+}
+
+.navbar button:focus{
+    outline:0;
+}
+.navbar-light .navbar-toggler {
+     border: 0; 
+}
+
+.navbar ul li {
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+}
+.navbar ul li:hover >ul{
+    top:30px;
+    box-shadow: 0 5px 10px #444;
+    left:120px;
+}
+.navbar ul li ul {
+    width: 160px;
+    line-height: 40px;
+}
+.navbar ul
+{
+    background: #222;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.slidebar {
+    display: none;
+}
+.search-box {
+    display: none;
+}
+
+
+
+/*==================================banner part start=========================*/
+
+#banner {
+    padding-top: 100px;
+    padding-bottom: 445px;
+}
+.bnrs-hover img {
+    width: 551px;
+    height: 347px;
+}
+.banner-text p {
+    padding-right: 13px;
+}
+.banner-text h3 {
+    padding-bottom: 7px;
+}
+.banner-text h2 {
+    font-size: 45px;
+
+}
+
+/*================================== about part start=========================*/
+
+#about {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.about-right {
+    text-align: center;
+}
+.about-right img{
+    height:400px;
+}
+
+/*================================== counter part start=========================*/
+
+.counter-text h3 {
+    margin-top: 14px;
+}
+.counter-num h2 {
+    font-size: 36px;
+}
+
+/*================================== counter part start=========================*/
+
+#service {
+    padding-top: 90px;
+    padding-bottom: 94px;
+}
+.service-header p {
+    padding-left: 0;
+    padding-right: 0;
+}
+.service-icon {
+    margin-left: 10px;
+}
+
+/*================================== details part start=========================*/
+
+#details {
+    padding-top: 100px;
+    padding-bottom: 113px;
+}
+
+/*================================== project  part start=========================*/
+
+#project {
+    padding-top: 90px;
+    padding-bottom: 131px;
+}
+.project-btn button {
+    padding: 10px 18px;
+}
+
+/*================================== feature  part start=========================*/
+#feature {
+    padding-top: 92px;
+    padding-bottom: 115px;
+  
+}
+
+/*================================== feature  part start=========================*/
+
+
+#team {
+    padding-top: 90px;
+    padding-bottom: 100px;
+
+}
+
+/*================================== testimonial  part start=========================*/
+
+#testimonial {
+    padding-top: 99px;
+    padding-bottom: 97px;
+}
+
+/*================================== blog  part start=========================*/
+.blogs-1{
+    padding-top: 30px
+}
+#blog {
+    padding-top: 90px;
+    padding-bottom: 128px;
+}
+/*================================== form  part start=========================*/
+.form-img {
+    display: none;
+}
+#form {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background: url(../images/form.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/*================================== contact  part start=========================*/
+
+.contacts-1{
+    padding-bottom: 30px;
+}
+#contact-part {
+    padding-top: 93px;
+    padding-bottom: 64px;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================small device part start====================================================*/
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+/*=====================header part start========================*/
+/*
+.header-right ul li {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.text-right {
+    text-align: left!important;
+    padding-top: 15px;
+}
+#header::before {
+    width: 666px;
+}*/
+#header::before {
+    width: 49%;
+}
+.text-right {
+    text-align: left !important;
+}
+.header-left{
+    padding-top: 14px;
+}
+
+
+/*=========================banner part start=====================*/
+#banner {
+    padding-top: 100px;
+    padding-bottom: 445px;
+}
+.bnrs-hover img {
+    width: 551px;
+    height: 347px;
+}
+.banner-text p {
+    padding-right: 13px;
+}
+.banner-text h3 {
+    padding-bottom: 7px;
+}
+.banner-text h2 {
+    font-size: 45px;
+
+}
+
+/*==============================navbar part start=====================*/
+.navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar button:focus{
+    outline:0;
+}
+.navbar-light .navbar-toggler {
+     border: 0; 
+}
+
+.navbar ul li {
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+}
+.navbar-brand img {
+    width: 130px;
+    height: 50px;
+}
+.navbar ul li:hover >ul{
+    top:45px;
+    box-shadow: 0 5px 10px #444;
+    left:120px;
+}
+.navbar ul li ul {
+    width: 160px;
+    line-height: 40px;
+}
+.navbar ul
+{
+    background: #222;
+    margin-bottom: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.slidebar {
+    display: none;
+}
+.search-box {
+    display: none;
+}
+
+/*=====================about part start========================*/
+
+#about {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.about-right img{
+    height:400px;
+}
+.about-left{
+    text-align: center;
+}
+
+/*=====================counter part start========================*/
+.counter-num h2 {
+    font-size: 30px;
+    padding-top: 9px;
+}
+.counter-item i {
+    font-size: 50px;
+}
+.counter-text h3 {
+    font-size: 14px;
+    margin-top: 17px;
+}
+#counter {
+    padding-top: 46px;
+    padding-bottom: 55px;
+}
+
+/*=====================service part start========================*/
+
+#service {
+    padding-top: 90px;
+    padding-bottom: 91px;
+}
+
+.service-header p {
+    padding-left: 0;
+    padding-right: 0;
+}
+.services-icon{
+    margin-right: 6px
+}
+.serv-item-top {
+    padding-top: 24px;
+}
+.service-img img {
+    padding-top: 25px;
+}
+
+/*=====================details part start========================*/
+
+#details {
+    padding-top: 99px;
+    padding-bottom: 113px;
+}
+
+/*=====================project part start========================*/
+#project {
+    padding-top: 92px;
+    padding-bottom: 130px;
+}
+.project-btn button {
+    padding: 10px 20px;
+    margin-bottom: 13px;
+}
+.project-top {
+    padding-top: 47px;
+}
+.project-btn {
+    margin-top: 52px;
+}
+
+/*=====================project part start========================*/
+#feature {
+    padding-top: 91px;
+    padding-bottom: 115px;
+}
+
+/*=====================team part start========================*/
+#team {
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+.team-top {
+    padding-top: 55px;
+}
+/*=====================testimonial part start========================*/
+
+#testimonial {
+    padding-top: 99px;
+    padding-bottom: 98px;
+}
+
+/*=====================blog part start========================*/
+#blog {
+    padding-top: 90px;
+    padding-bottom: 126px;
+}
+.card{
+    margin-bottom: 15px;
+}
+.blog-end-text {
+    padding-top: 38px;
+}
+
+
+/*=====================form part start========================*/
+
+.form-img{
+    display: none;
+}
+#form {
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+/*=====================client part start========================*/
+#partner {
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+/*=====================client part start========================*/
+#contact-part {
+    padding-top: 94px;
+    padding-bottom: 62px;
+}
+.contacts-1{
+    padding-bottom:30px;
+}
+
+
+}
+
+
+
+
+
+
+
+/*=================xtra small device part star====================================t*/
+@media (max-width: 575.98px) { 
+
+
+
+/*=====================header part start========================*/
+
+.header-right ul li {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.text-right {
+    text-align: left!important;
+    padding-top: 0;
+}
+#header::before {
+    width: 666px;
+}
+
+/*==============================navbar part start=====================*/
+.navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar button:focus{
+    outline:0;
+}
+.navbar-light .navbar-toggler {
+     border: 0; 
+}
+
+.navbar ul li {
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+}
+.navbar-brand img {
+    width: 130px;
+    height: 50px;
+}
+.navbar ul li:hover >ul{
+    top:45px;
+    box-shadow: 0 5px 10px #444;
+    left:120px;
+}
+.navbar ul li ul {
+    width: 160px;
+    line-height: 40px;
+}
+.navbar ul
+{
+    background: #222;
+    margin-bottom: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.slidebar {
+    display: none;
+}
+.search-box {
+    display: none;
+}
+
+
+/*============================banner part start==============================*/
+
+.bnrs-hover img {
+    display: none;
+}
+.banner-text p {
+    padding-right: 0;
+}
+.banner-text h3 {
+    font-size: 20px;
+}
+.banner-text h2 {
+    font-size: 40px;
+}
+#banner {
+    padding-top: 58px;
+    padding-bottom: 60px;
+}
+#about {
+    padding-top: 60px;
+    padding-bottom: 53px;
+}
+
+
+/*============================about part start==============================*/
+
+.about-left h3 {
+    font-size: 26px;
+     padding-bottom: 0;
+}
+.about-left p {
+    font-size: 14px;
+}
+.about-align{
+    text-align: center;
+}
+.about-item1 {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 13px;
+}
+.about-right img{
+    width:330px;
+}
+
+/*============================counter part start==============================*/
+#counter {
+    padding-top: 47px;
+    padding-bottom: 56px;
+}
+.counter-item1{
+    width:50%;
+    text-align: center;
+}
+.counter-text h3 {
+    margin-top: 17px;
+}
+.counter1{
+    padding-bottom: 40px;
+}
+.counter-item i {
+    font-size: 50px;
+}
+.counter-num h2 {
+    font-size: 30px;
+}
+
+/*============================counter part end==============================*/
+
+
+/*============================service part start==============================*/
+.service-header h3 {
+    font-size: 26px;
+}
+#service {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.serv-item-top {
+    padding-top: 26px;
+}
+.service-header p {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 14px;
+}
+.service-text h4 {
+    font-size: 14px;
+}
+/*.service-icon {
+    width: 55px;
+    height: 50px;
+    line-height: 43px;
+    text-align: center;
+}*/
+.service-icon i {
+    font-size: 24px;
+}
+.services-icon{
+    width:28%;
+}
+.services-text{
+    width: 72%;
+}
+.service-img img {
+    padding-top: 50px;
+    height: 400px;
+    padding-bottom: 38px;
+}
+/*============================service part end==============================*/
+
+
+/*============================details part start==============================*/
+#details {
+    padding-top: 60px;
+    padding-bottom: 76px;
+}
+
+
+/*============================project part start==============================*/
+
+#project {
+    padding-top: 53px;
+    padding-bottom: 75px;
+}
+.project-btn button {
+    padding: 10px 14px;
+    margin-bottom: 15px;
+}
+.project-btn {
+    margin-top: 27px;
+}
+.project-top {
+    padding-top: 45px;
+}
+
+.pro-top {
+    padding-bottom: 14px;
+}
+
+.pro-item-top {
+    padding-bottom: 14px;
+}
+
+
+
+/*============================feature part start==============================*/
+
+#feature {
+    padding-top: 55px;
+    padding-bottom: 70px;
+}
+.feature-bottom {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+/*============================team part start==============================*/
+#team {
+    padding-top: 52px;
+    padding-bottom: 60px;
+}
+.team-top {
+    padding-top: 55px;
+}
+
+/*============================testimonial part start==============================*/
+
+#testimonial {
+    padding-top: 57px;
+    padding-bottom: 56px;
+}
+.test-img-top{
+    width:55%;
+}
+.testimonial-text{
+    width:45%;
+}
+
+/*============================blog part start==============================*/
+#blog {
+    padding-top: 56px;
+    padding-bottom: 87px;
+}
+.card {
+    margin-bottom: 15px;
+}
+.blog-end-text {
+    padding-top: 38px;
+}
+
+/*============================form part start==============================*/
+
+.form-img {
+    display: none;
+}
+#form {
+    padding-top: 56px;
+    padding-bottom: 59px;
+}
+.field {
+    padding-bottom: 13px;
+}
+.error {
+    padding-top: 5px;
+}
+
+/*============================contact part start==============================*/
+.contacts-1 {
+    padding-bottom:23px 
+}
+#contact-part {
+    padding-top: 55px;
+    padding-bottom: 37px;
+}
+.contact2-text{
+    padding-top:13px; 
+}
+.contacts-2{
+    width: 50%;
+}
+.contacts-3{
+    width: 50%;
+}
+.contact-text4-img {
+    width: 33.33%;
+}
+
+
+
+
+}
+
+
+@media (min-width: 500px) and (max-width: 575.98px) { 
+
+
+/*service part start*/
+.services-icon{
+    width:20%;
+}
+.services-text{
+    width: 80%;
+    padding:0; 
+}
+
+.pro-top {
+    padding-bottom: 14px;
+    width: 50%;
+}
+.pro-item-top {
+    padding-bottom: 14px;
+    width: 50%;
+}
+
+/*feature part start*/
+.feature-bottom {
+    margin-left: 0;
+    margin-right: 0;
+    width: 50%;
+}
+#feature {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.about-right {
+    text-align: center;
+}
+.pro-top {
+	width: 50%;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.pro-top {
+	padding-top: 0px;
+}
+
+    
+    
+    
+
+}
+
+
+@media (min-width: 450px) and (max-width: 500px) { 
+
+.about-item1{
+    width:50%;
+}
+.about-right {
+    text-align: center;
+}
+.services-icon{
+    width:23%;
+}
+.services-text{
+    width: 77%;
+    padding:0; 
+}
+.pro-top {
+    padding-right:15px;
+    padding-left: 15px; 
+}
+
+.pro-item-top {
+    padding-right:15px;
+    padding-left: 15px; 
+}
+
+
+
+
+
+
+}
+@media (min-width: 400px) and (max-width: 450px) { 
+.services-icon{
+    width:26%;
+}
+.services-text{
+    width: 74%;
+    padding:0; 
+}
+.pro-top {
+    padding-right:15px;
+    padding-left: 15px; 
+}
+
+.pro-item-top {
+    padding-right:15px;
+    padding-left: 15px; 
+}
